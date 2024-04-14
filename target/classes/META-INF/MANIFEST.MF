@@ -1,0 +1,74 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Class-Path: spring-boot-starter-data-jpa-3.0.0.jar spring-boot-starter-a
+ op-3.0.0.jar aspectjweaver-1.9.9.1.jar spring-boot-starter-jdbc-3.0.0.j
+ ar HikariCP-5.0.1.jar spring-jdbc-6.0.2.jar hibernate-core-6.1.5.Final.
+ jar jakarta.persistence-api-3.1.0.jar jakarta.transaction-api-2.0.1.jar
+  hibernate-commons-annotations-6.0.2.Final.jar jandex-2.4.2.Final.jar b
+ yte-buddy-1.12.19.jar jaxb-runtime-4.0.1.jar jakarta.inject-api-2.0.0.j
+ ar antlr4-runtime-4.10.1.jar spring-data-jpa-3.0.0.jar spring-data-comm
+ ons-3.0.0.jar spring-orm-6.0.2.jar spring-context-6.0.2.jar spring-tx-6
+ .0.2.jar spring-beans-6.0.2.jar jakarta.annotation-api-2.1.1.jar slf4j-
+ api-2.0.4.jar spring-aspects-6.0.2.jar spring-boot-starter-web-3.0.0.ja
+ r spring-boot-starter-3.0.0.jar spring-boot-3.0.0.jar spring-boot-autoc
+ onfigure-3.0.0.jar spring-boot-starter-logging-3.0.0.jar logback-classi
+ c-1.4.5.jar logback-core-1.4.5.jar log4j-to-slf4j-2.19.0.jar log4j-api-
+ 2.19.0.jar jul-to-slf4j-2.0.4.jar snakeyaml-1.33.jar spring-boot-starte
+ r-json-3.0.0.jar jackson-datatype-jdk8-2.14.1.jar jackson-datatype-jsr3
+ 10-2.14.1.jar jackson-module-parameter-names-2.14.1.jar spring-boot-sta
+ rter-tomcat-3.0.0.jar tomcat-embed-core-10.1.1.jar tomcat-embed-el-10.1
+ .1.jar tomcat-embed-websocket-10.1.1.jar spring-web-6.0.2.jar micromete
+ r-observation-1.10.2.jar micrometer-commons-1.10.2.jar spring-webmvc-6.
+ 0.2.jar spring-expression-6.0.2.jar mysql-connector-j-8.0.31.jar hibern
+ ate-validator-8.0.0.Final.jar jakarta.validation-api-3.0.2.jar jboss-lo
+ gging-3.5.0.Final.jar classmate-1.5.1.jar springdoc-openapi-starter-web
+ mvc-ui-2.4.0.jar springdoc-openapi-starter-webmvc-api-2.4.0.jar springd
+ oc-openapi-starter-common-2.4.0.jar swagger-core-jakarta-2.2.20.jar com
+ mons-lang3-3.12.0.jar swagger-annotations-jakarta-2.2.20.jar swagger-mo
+ dels-jakarta-2.2.20.jar jackson-dataformat-yaml-2.14.1.jar swagger-ui-5
+ .11.8.jar lombok-1.18.24.jar jakarta.xml.bind-api-4.0.0.jar jakarta.act
+ ivation-api-2.1.0.jar spring-core-6.0.2.jar spring-jcl-6.0.2.jar spring
+ -boot-starter-security-3.0.0.jar spring-aop-6.0.2.jar spring-security-c
+ onfig-6.0.0.jar spring-security-web-6.0.0.jar spring-boot-starter-oauth
+ 2-resource-server-3.0.0.jar spring-security-core-6.0.0.jar spring-secur
+ ity-crypto-6.0.0.jar spring-security-oauth2-resource-server-6.0.0.jar s
+ pring-security-oauth2-core-6.0.0.jar spring-security-oauth2-jose-6.0.0.
+ jar nimbus-jose-jwt-9.24.4.jar jcip-annotations-1.0-1.jar keycloak-poli
+ cy-enforcer-24.0.2.jar keycloak-authz-client-21.0.2.jar httpclient-4.5.
+ 13.jar httpcore-4.4.15.jar keycloak-core-21.0.2.jar keycloak-common-21.
+ 0.2.jar jakarta.activation-1.2.2.jar jackson-core-2.14.1.jar jackson-da
+ tabind-2.14.1.jar jackson-annotations-2.14.1.jar keycloak-admin-client-
+ 24.0.2.jar resteasy-client-6.2.7.Final.jar resteasy-client-api-6.2.7.Fi
+ nal.jar resteasy-core-spi-6.2.7.Final.jar resteasy-core-6.2.7.Final.jar
+  angus-activation-1.0.0.jar asyncutil-0.1.0.jar commons-codec-1.15.jar 
+ jakarta.ws.rs-api-3.1.0.jar reactive-streams-1.0.4.jar resteasy-multipa
+ rt-provider-6.2.7.Final.jar jakarta.mail-api-2.1.0.jar angus-mail-1.0.0
+ .jar apache-mime4j-dom-0.8.9.jar apache-mime4j-core-0.8.9.jar apache-mi
+ me4j-storage-0.8.9.jar commons-io-2.11.0.jar resteasy-jackson2-provider
+ -6.2.7.Final.jar jackson-jakarta-rs-base-2.14.1.jar jackson-jakarta-rs-
+ json-provider-2.14.1.jar jackson-module-jakarta-xmlbind-annotations-2.1
+ 4.1.jar json-patch-1.13.jar msg-simple-1.2.jar btf-1.3.jar jackson-core
+ utils-2.0.jar resteasy-jaxb-provider-6.2.7.Final.jar codemodel-4.0.1.ja
+ r jaxb-core-4.0.1.jar jaxb-jxc-4.0.1.jar txw2-4.0.1.jar jaxb-xjc-4.0.1.
+ jar xsom-4.0.1.jar istack-commons-runtime-4.1.1.jar istack-commons-tool
+ s-4.1.2.jar relaxng-datatype-4.0.3.jar rngom-4.0.3.jar keycloak-test-he
+ lper-24.0.2.jar keycloak-client-registration-api-24.0.2.jar keycloak-cr
+ ypto-default-21.0.2.jar keycloak-server-spi-21.0.2.jar keycloak-server-
+ spi-private-21.0.2.jar bcprov-jdk15on-1.70.jar bcpkix-jdk15on-1.70.jar 
+ bcutil-jdk15on-1.70.jar keycloak-services-24.0.2.jar twitter4j-core-4.1
+ .2.jar jakarta.xml.soap-api-3.0.0.jar owasp-java-html-sanitizer-2022060
+ 8.1.jar guava-30.1-jre.jar failureaccess-1.0.1.jar listenablefuture-999
+ 9.0-empty-to-avoid-conflict-with-guava.jar jsr305-3.0.2.jar error_prone
+ _annotations-2.3.4.jar j2objc-annotations-1.3.jar javax.annotation-api-
+ 1.3.2.jar javase-3.4.0.jar core-3.4.0.jar jai-imageio-core-1.4.0.jar we
+ bauthn4j-core-0.21.5.RELEASE.jar webauthn4j-util-0.21.5.RELEASE.jar ker
+ by-asn1-2.0.3.jar jackson-dataformat-cbor-2.14.1.jar checker-qual-3.36.
+ 0.jar uap-java-1.5.4.jar commons-collections4-4.4.jar microprofile-open
+ api-api-3.1.1.jar smallrye-common-annotation-2.1.2.jar keycloak-model-s
+ torage-private-24.0.2.jar keycloak-model-storage-24.0.2.jar mapstruct-1
+ .6.0.Beta1.jar spring-boot-configuration-processor-3.0.0.jar
+Implementation-Title: TimeAppService
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.microservice.timesheet.TimeAppServiceApplication
+Created-By: Maven Integration for Eclipse
+
